@@ -38,7 +38,7 @@ jobs:
           FULL_REFRESH: ${{ github.event.inputs.full_refresh || 'false' }}
           SMARD_START_DATE: "2022-01-01"
           SMARD_LOOKBACK_DAYS: "7"
-        run: python scripts/update_smard.py
+        run: python Scripts/update_smard.py
 
       - name: Änderungen im Repository speichern
         shell: bash
