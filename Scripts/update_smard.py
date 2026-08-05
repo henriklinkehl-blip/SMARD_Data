@@ -25,7 +25,7 @@ from zoneinfo import ZoneInfo
 ENDPOINT = "https://www.smard.de/nip-download-manager/nip/download/market-data"
 TIMEZONE = ZoneInfo("Europe/Berlin")
 ROOT = Path(__file__).resolve().parents[1]
-DATA_DIR = ROOT / "data"
+DATA_DIR = ROOT / "Data"
 DOWNLOAD_DIR = ROOT / "download"
 START_DATE = date.fromisoformat(os.getenv("SMARD_START_DATE", "2022-01-01"))
 LOOKBACK_DAYS = max(1, int(os.getenv("SMARD_LOOKBACK_DAYS", "7")))
