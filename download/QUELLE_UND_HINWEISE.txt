@@ -1,0 +1,11 @@
+Quelle: Bundesnetzagentur | SMARD.de
+Lizenz: CC BY 4.0
+Automatisch aktualisiert: 2026-08-03 16:04:00 CEST
+Basiszeitraum ab: 2022-01-01
+
+Enthaltene Reihen:
+- Day-Ahead-Preise
+- prognostizierter Stromverbrauch
+- prognostizierte Erzeugung Wind Onshore
+- prognostizierte Erzeugung Wind Offshore
+- prognostizierte Erzeugung Photovoltaik
